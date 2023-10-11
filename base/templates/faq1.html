@@ -6,7 +6,11 @@
     <div class="container">
         <div class="row justify-content-left">
             <div class="col-lg-4">
-                <div class="card text-dark bg-light">
+                <div id = 'card_hover' class="custom-card card text-dark bg-light" style = 'transition: transform 0.2s ease;
+                box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+                border-radius: 0;
+                border: 0;
+                margin-bottom: 1.5em;'>
                     <div class="card-body text-center">
                         <!-- Card Content -->
                         <h2 class="card-title">Harness the power of your community</h2>
@@ -128,22 +132,71 @@
 
 
 <div class="container mt-5">
-    <h2 class="title" style='color:black'>Cowardfunding delivers marketing benefit, customer loyalty and funds with speed</h2>
-    <div class = 'row justify-content-center'>
+    <h2 class="title" style='color:black'>Crowdfunding delivers marketing benefit, customer loyalty and funds with speed</h2>
+    <div class = 'row justify-content-center' style='padding:50px'>
     <div class="custom-div col-md-3 clmn1">
         <img src="{%static '/images/background2.jpg'%}" class="img-fluid first-image" alt="First Image">
         <img src="{%static '/images/background2.jpg'%}" class="img-fluid second-image" alt="Second Image">
     </div>
-    <div class = "col-md-6 clmn2">
+    <div class = "col-md-6 " style = 'background-color: rgba(0, 30, 200, 0.2); padding: 30px'>
             <h2>Heading</h2>
             <h4>Title Heading</h4>
             <p>
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
                 This is a sample text describing the content. You can add more details here.
             </p>
             <a href="#">Learn More</a>
         </div>
     </div>
 </div>
+
+<div class="container mt-5">
+    <h2 class="title" style='color:black'>Crowdfunding delivers marketing benefit, customer loyalty and funds with speed</h2>
+    <div class = 'row justify-content-center' style='padding:50px'>
+    
+    <div class = "col-md-6 " style = 'background-color: rgba(0, 30, 200, 0.2); padding: 30px'>
+            <h2>Heading</h2>
+            <h4>Title Heading</h4>
+            <p>
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+                This is a sample text describing the content. You can add more details here.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="custom-div2 col-md-3" style = 'background-color: rgba(0, 30, 200, 0.2);'>
+            <img src="{%static '/images/background2.jpg'%}" style = 'top: 30%;
+            right: -30%;
+            width: 200px;
+            height: 200px;
+            transform: translateX(40%);
+            '
+            class="img-fluid first-image2" alt="First Image">
+            <img src="{%static '/images/background2.jpg'%}" style = '
+            top: 60%;
+    width: 100px;
+    height: 100px;
+    margin-left 50px
+            '
+             class="img-fluid second-image2" alt="Second Image">
+        </div>
+    </div>
+    
+</div>
+
+<span class="green_box" onmouseover="I am Green and today is {% now "d-n-Y" %}">
+<div class = 'container'>
+</div>
+</span>
+
+
 
 
 {% comment %} <div class = "container justify-content-center" style = ' padding-left: 100px; padding-right: 100px'>
