@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+
+
+{% block content  %}
+
+<div id = 'card_hover' class="custom-card card text-dark bg-light" style = 'transition: transform 0.2s ease;
+                box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+                border-radius: 0;
+                border: 0;
+                margin-bottom: 1.5em;'>
+                    <div class="card-body text-center">
+                        <form style = 'display:grid-template-columns: 1fr 1fr' method = "POST" action = ''>
+                            {% csrf_token %}
+                            
+                            {{form.as_p}}
+                            <input type = 'submit'>
+                    </div>
+
+<div>
+    
+</div>
+
+{%  endblock content %}
+
